@@ -153,7 +153,10 @@ pessoa1.apresentar()
 - **Discords de programação.**
 - **Canais no [YouTube](https://www.youtube.com/)** com tutoriais em português e inglês.
 
-
-## Conclusão:
-
-***Python consolidou-se como uma das linguagens de programação mais versáteis e acessíveis da atualidade. A sua simplicidade não compromete o poder, permitindo que seja usada tanto por iniciantes que dão os primeiros passos na programação como por especialistas em inteligência artificial e big data. Apesar de algumas limitações relacionadas com desempenho, as suas vantagens — comunidade ativa, vasto ecossistema de bibliotecas e curva de aprendizagem suave — tornam-na uma escolha sólida para quase qualquer tipo de projeto, sendo por isso uma excelente linguagem para aprender e dominar.***
+Duas melhorias para o guia
+Secção de instalação e ambiente de desenvolvimento — o guia explica a linguagem, mas não como começar a programar na prática. Podias acrescentar uma secção com:
+Como instalar o Python (python.org ou gestores como pyenv)
+Como usar ambientes virtuais (venv) para isolar dependências
+Como instalar pacotes com pip
+Sugestão de editores/IDEs (VS Code, PyCharm, Jupyter Notebook)
+Comparação com outras linguagens — uma tabela simples comparando Python com C++, Java ou JavaScript em critérios como velocidade, curva de aprendizagem, tipagem e casos de uso típicos. Isto ajuda quem está a decidir se Python é a linguagem certa para o seu projeto, dando contexto que faltava na versão atual do guia.
