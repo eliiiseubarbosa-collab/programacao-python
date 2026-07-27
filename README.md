@@ -28,8 +28,7 @@ O nome "Python" não vem da cobra, mas sim do grupo de comédia britânico **Mon
 
 ## Principais Características:
 
-
- **Sintaxe simples e legível** — código próximo da linguagem natural, com indentação obrigatória a definir blocos de código.
+**Sintaxe simples e legível** — código próximo da linguagem natural, com indentação obrigatória a definir blocos de código.
 
 **Interpretada** — o código é executado linha a linha por um interpretador, sem necessidade de compilação prévia.
 
@@ -47,54 +46,54 @@ Código aberto e gratuito.
 
 ## Exemplos de Código:
 
+
+### 1. Olá, Mundo!
 ```python
-Olá, Mundo!
-
-pythonprint("Olá, mundo!")
-
-1. Variáveis e tipos de dados:
-
-pythonnome = "Ana"
+print("Olá, mundo!")
+```
+### 2. Variáveis e tipos de dados:
+```python
+nome = "Ana"
 idade = 25
 altura = 1.68
 estudante = True
 
 print(f"{nome} tem {idade} anos e mede {altura}m.")
 ```
+### 3. Estruturas de controlo:
 ```python
-2. Estruturas de controlo:
-
-pythonnumero = 7
+numero = 7
 
 if numero % 2 == 0:
     print("Número par")
 else:
     print("Número ímpar")
 ```
-```python
-Ciclos (loops):
 
-pythonfor i in range(5):
+### 4. Ciclos (loops):
+```python
+for i in range(5):
     print(f"Iteração {i}")
 ```
-```python
-Funções:
 
-pythondef saudacao(nome):
+### 5. Funções:
+```python
+def saudacao(nome):
     return f"Olá, {nome}!"
 
 print(saudacao("Carlos"))
 ```
-```python
-Listas e list comprehension:
 
-pythonnumeros = [1, 2, 3, 4, 5]
+### 6. Listas e list comprehension:
+```python
+numeros = [1, 2, 3, 4, 5]
 quadrados = [n**2 for n in numeros]
 print(quadrados)  # [1, 4, 9, 16, 25]
 ```
+
+### 7. Programação orientada a objetos
 ```python
-Programação orientada a objetos
-pythonclass Pessoa:
+class Pessoa:
 
     def __init__(self, nome, idade):
         self.nome = nome
@@ -106,6 +105,8 @@ pythonclass Pessoa:
 pessoa1 = Pessoa("Maria", 30)
 pessoa1.apresentar()
 ```
+---
+
 ![codepython](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqX9EfELYwsloquQ5bt0UOCE-DosEXYCa6KuP9i31FtA&s=10)
 
 ## Aplicações da Linguagem:
