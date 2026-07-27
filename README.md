@@ -1,5 +1,10 @@
 # Python: Guia Completo
 
+![python](https://cdn-icons-png.flaticon.com/512/5968/5968286.png)
+
+- **Autor:** *Eliseu Barbosa*
+- **Data:** *27/07/2026*
+- **Objetivo:** *Apresentar guia de linguagem Python.*
 ## 1. Introdução
 
 Python é uma linguagem de programação de alto nível, interpretada e de propósito geral, conhecida pela sua sintaxe simples e legível. Foi projetada para permitir que os programadores expressem conceitos em poucas linhas de código, ao contrário de outras linguagens mais verbosas como C++ ou Java. Atualmente, é uma das linguagens mais populares do mundo, usada em áreas tão diversas como desenvolvimento web, ciência de dados, inteligência artificial, automação e educação.
