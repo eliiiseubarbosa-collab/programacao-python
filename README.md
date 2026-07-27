@@ -40,17 +40,21 @@ pyenv global 3.12.0
 python --version
 ```
 
+**Sintaxe simples e legível** — código próximo da linguagem natural, com indentação obrigatória a definir blocos de código.
 ### Ambientes Virtuais (venv)
 Um ambiente virtual isola as dependências de cada projeto, evitando conflitos entre bibliotecas de projetos diferentes.
 
+### Criar o ambiente virtual
 ```bash
-# Criar o ambiente virtual
 python -m venv .venv
-
-# Ativar (Linux/macOS)
+```
+### Ativar (Linux/macOS)
+```bash
 source .venv/bin/activate
+```
 
-# Ativar (Windows)
+### Ativar (Windows)
+```bash
 .venv\Scripts\activate
 ```
 
@@ -59,8 +63,10 @@ O `pip` é o gestor de pacotes oficial do Python, usado para instalar biblioteca
 
 ```bash
 pip install nome-do-pacote
+```
 
 # Exemplo
+```bash
 pip install requests
 ```
 
@@ -76,12 +82,13 @@ pip freeze > requirements.txt
 
 ## 5. Exemplos de Código
 
-### Olá, Mundo!
+
+### 1. Olá, Mundo!
 ```python
 print("Olá, mundo!")
 ```
 
-### Variáveis e tipos de dados
+### 2. Variáveis e tipos de dados
 ```python
 nome = "Ana"
 idade = 25
@@ -90,8 +97,7 @@ estudante = True
 
 print(f"{nome} tem {idade} anos e mede {altura}m.")
 ```
-
-### Estruturas de controlo
+### 3. Estruturas de controlo:
 ```python
 numero = 7
 
@@ -101,13 +107,13 @@ else:
     print("Número ímpar")
 ```
 
-### Ciclos (loops)
+### 4. Ciclos (loops):
 ```python
 for i in range(5):
     print(f"Iteração {i}")
 ```
 
-### Funções
+### 5. Funções:
 ```python
 def saudacao(nome):
     return f"Olá, {nome}!"
@@ -115,12 +121,16 @@ def saudacao(nome):
 print(saudacao("Carlos"))
 ```
 
-### Listas e list comprehension
+### 6. Listas e list comprehension:
 ```python
 numeros = [1, 2, 3, 4, 5]
 quadrados = [n**2 for n in numeros]
 print(quadrados)  # [1, 4, 9, 16, 25]
 ```
+
+### 7. Programação orientada a objetos
+```python
+class Pessoa:
 
 ### Programação orientada a objetos
 ```python
@@ -135,6 +145,24 @@ class Pessoa:
 pessoa1 = Pessoa("Maria", 30)
 pessoa1.apresentar()
 ```
+---
+
+![codepython](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqX9EfELYwsloquQ5bt0UOCE-DosEXYCa6KuP9i31FtA&s=10)
+
+## Aplicações da Linguagem:
+
+
+**Desenvolvimento Web** — frameworks como [Django](https://www.djangoproject.com/) e [Flask](https://flask.palletsprojects.com/).
+
+**Ciência de Dados e Análise de Dados** — bibliotecas como [Pandas](https://pandas.pydata.org/), [NumPy](https://numpy.org/) e [Matplotlib](https://matplotlib.org/).
+
+**Inteligência Artificial e Machine Learning** — [TensorFlow](https://www.tensorflow.org/), [PyTorch](https://pytorch.org/), [Scikit-learn](https://scikit-learn.org/).
+
+**Automação e Scripting** — automatização de tarefas repetitivas do sistema operativo.
+
+**Desenvolvimento de Jogos** — [Pygame](https://www.pygame.org/).
+
+**Internet das Coisas (IoT)** — usado com Raspberry Pi e microcontroladores.
 
 ## 6. Aplicações da Linguagem
 
