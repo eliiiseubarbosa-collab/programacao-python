@@ -1,5 +1,7 @@
 # Python: Guia Completo
 
+![cobra nas botas](https://cdn.britannica.com/28/239528-050-D89C8118/reticulated-python-Malayopython-reticulatus.jpg)
+
 ## 1. Introdução
 
 Python é uma linguagem de programação de alto nível, interpretada e de propósito geral, conhecida pela sua sintaxe simples e legível. Foi projetada para permitir que os programadores expressem conceitos em poucas linhas de código, ao contrário de outras linguagens mais verbosas como C++ ou Java. Atualmente, é uma das linguagens mais populares do mundo, usada em áreas tão diversas como desenvolvimento web, ciência de dados, inteligência artificial, automação e educação.
